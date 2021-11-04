@@ -1,0 +1,21 @@
+@keyframes appear {
+    from {
+      opacity: 0%;
+    }
+
+    to {
+      opacity: 100%;
+    }
+  }
+
+input.dynamic {
+    animation: appear 1s ease;
+}
+
+.testinga {
+  background-color: "#009EDB";
+}
+
+.hidden {
+    display: none;
+}
